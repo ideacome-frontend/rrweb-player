@@ -3,6 +3,7 @@ import _Player from './Player.svelte';
 
 type PlayerProps = {
   events: eventWithTime[];
+  ALLOW_JS?: boolean;
 };
 
 class Player extends _Player {

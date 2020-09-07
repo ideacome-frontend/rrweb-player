@@ -9,6 +9,6 @@ yarn.lock
 temp
 
 # dist
-lib
+# lib
 
 *.log

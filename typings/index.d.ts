@@ -14,7 +14,7 @@ export default class rrwebPlayer {
       showController?: boolean;
       showWarning?: boolean;
       showDebug?: boolean;
-      ALLOW_JS?: boolean;
+      UNSAFE_replayCanvas?: boolean;
       tags?: Record<string, string>;
     };
   });

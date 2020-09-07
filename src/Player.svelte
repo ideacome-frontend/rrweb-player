@@ -22,7 +22,7 @@
   export let showController: boolean = true;
   export let showWarning: boolean = true;
   export let showDebug: boolean = true;
-  export let ALLOW_JS: boolean = false;
+  export let UNSAFE_replayCanvas: boolean = false;
   export let tags: Record<string, string> = {};
 
   const controllerHeight = 80;
@@ -128,7 +128,7 @@
       showDebug,
       triggerFocus,
       unpackFn: unpack,
-      ALLOW_JS,
+      UNSAFE_replayCanvas,
     });
 
     replayer.on('resize', (dimension) => {
@@ -205,7 +205,6 @@
       {speedOption}
       {skipInactive}
       {tags}
-      {ALLOW_JS}
       on:fullscreen={() => toggleFullscreen()} />
   {/if}
 </div>

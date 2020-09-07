@@ -22,7 +22,7 @@
   export let showController: boolean = true;
   export let showWarning: boolean = true;
   export let showDebug: boolean = true;
-  export let UNSAFE_replayCanvas: boolean = false;
+  export let UNSAFE_replayCanvas: boolean = true;
   export let tags: Record<string, string> = {};
 
   const controllerHeight = 80;

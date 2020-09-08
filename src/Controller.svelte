@@ -383,32 +383,7 @@
         id="skip"
         bind:checked={skipInactive}
         disabled={speedState === 'skipping'}
-        label="skip inactive" />
-      <button on:click={() => dispatch('fullscreen')}>
-        <svg
-          class="icon"
-          viewBox="0 0 1024 1024"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="16"
-          height="16">
-          <defs>
-            <style type="text/css">
-
-            </style>
-          </defs>
-          <path
-            d="M916 380c-26.4 0-48-21.6-48-48L868 223.2 613.6 477.6c-18.4
-            18.4-48.8 18.4-68 0-18.4-18.4-18.4-48.8 0-68L800 156 692 156c-26.4
-            0-48-21.6-48-48 0-26.4 21.6-48 48-48l224 0c26.4 0 48 21.6 48 48l0
-            224C964 358.4 942.4 380 916 380zM231.2 860l108.8 0c26.4 0 48 21.6 48
-            48s-21.6 48-48 48l-224 0c-26.4 0-48-21.6-48-48l0-224c0-26.4 21.6-48
-            48-48 26.4 0 48 21.6 48 48L164 792l253.6-253.6c18.4-18.4 48.8-18.4
-            68 0 18.4 18.4 18.4 48.8 0 68L231.2 860z"
-            p-id="1286" />
-        </svg>
-      </button>
+        label="跳过无用户操作" />
     </div>
   </div>
 {/if}
